@@ -10,6 +10,8 @@
 [Ss]cripts
 pyvenv.cfg
 .venv
+venv
+.aws-sam
 pip-selfcheck.json
 
 ### Python template
