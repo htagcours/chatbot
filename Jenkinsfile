@@ -51,13 +51,14 @@ pipeline {
         }
 
         stage('Test endpoint'){
-            steps {}
+            steps {
                 script {
                     // Add your endpoint testing commands here
                     echo "Testing the endpoint..."
                     sh "make test-endpoint"
                 }
             }
+        }
     }
 
     post {
